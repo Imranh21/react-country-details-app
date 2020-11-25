@@ -8,7 +8,7 @@ class Navigation extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="light" d-flex>
+        <Navbar fixed="top" bg="light" d-flex>
           <Nav>
             <li>
               <Link to="/">Home</Link>
