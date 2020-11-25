@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.heading {
+  margin-top: 10px;
+}
+
+.countryCard {
+  width: 25%;
+  margin: 10px;
+  background: rgb(84, 101, 255);
+  padding: 10px 0;
+}
+.navlink {
+  color: #fff;
+}
+
+.allCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardComponent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .countryCard {
+    width: 90%;
+  }
+}
